@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main-instruction {
+  width: 500px;
+  margin-right: 20px;
+}
+
+.main-instruction-title {
+  font-size: 20px;
+  color: #888888;
+  margin-bottom: 30px;
+}
+
+.main-instruction-text {
+  font-size: 12px;
+  color: #888888;
+}
+
+.main-instruction-text:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.main-form {
+  width: 340px;
+}
+
+.main-form > .labelInput:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.main-form > .button {
+  margin-top: 20px;
+}

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/globalStyles.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/labels.css" />
   </head>
   <body>
     <header class="header">
@@ -16,13 +18,62 @@
         Todos os produtos desta lista foram selecionados a partir da sua
         navegação. Aproveite!
       </p>
-      <div class="header-background"></div>
-      <div>
+      <div class="header-actions">
         <button class="button">Conheça a Linx</button>
         <button class="button">Ajude o algorítimo</button>
         <button class="button">Seus produtos</button>
         <button class="button">Compartilhe</button>
       </div>
+      <div class="header-background"></div>
     </header>
+    <main class="main">
+      <section class="main-instruction">
+        <h3 class="main-instruction-title">
+          Ajude o algorítimo a ser mais certeiro
+        </h3>
+        <p class="main-instruction-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          ultricies tellus nec mi porta convallis sollicitudin eu urna. Mauris
+          rhoncus erat sed interdum dignissim. Suspendisse semper pretium
+          consectetur. Praesent bibendum arcu risus, sit amet iaculis ex tempus
+          quis. Cras et erat ut tellus vulputate tincidunt. Aenean lacinia
+          euismod augue vel egestas. Class aptent taciti sociosqu ad litora
+          torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel
+          urna tortor. Vivamus et arcu non felis tristique eleifend.
+        </p>
+        <p class="main-instruction-text">
+          Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum
+          ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed,
+          egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut
+          neque mattis, consequat velit ut, ultrices orci. Nulla varius
+          elementum erat vel pharetra. Aenean sit amet nisi diam. Morbi viverra,
+          magna ac luctus commodo, odio ante suscipit libero, at mattis augue
+          est vel metus.
+        </p>
+      </section>
+      <form class="main-form">
+        <label class="labelInput">
+          Seu nome:
+          <input class="labelInput-input" />
+        </label>
+        <label class="labelInput">
+          E-mail:
+          <input class="labelInput-input" />
+        </label>
+        <label class="labelInput">
+          CPF:
+          <input class="labelInput-input" />
+        </label>
+        <label class="labelRadio">
+          <input type="radio" name="instruction" />
+          Masculino
+        </label>
+        <label class="labelRadio">
+          <input type="radio" name="instruction" />
+          Feminino
+        </label>
+        <button class="button fullWidth">Enviar</button>
+      </form>
+    </main>
   </body>
 </html>

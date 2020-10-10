@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: calc(100% - 550px);
 }
 
 .header-subTitle {
@@ -33,6 +34,6 @@
   transform: skew(0deg, 4deg);
 }
 
-.button:not(:last-child) {
+.header-actions > .button:not(:last-child) {
   margin-right: 30px;
 }
