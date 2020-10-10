@@ -1,9 +1,21 @@
 .header {
   display: flex;
+  height: 400px;
   position: relative;
+  margin-bottom: 60px;
   align-items: center;
+  background: #707070;
   flex-direction: column;
-  height: calc(100% - 550px);
+}
+
+.header::after {
+  content: "";
+  width: 100%;
+  height: 100px;
+  bottom: -50px;
+  position: absolute;
+  transform: skew(0, 3deg);
+  background-color: #ffffff;
 }
 
 .header-subTitle {
@@ -22,17 +34,6 @@
   color: #ffffff;
   font-size: 0.9em;
   margin-bottom: 50px;
-}
-
-.header-background {
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  bottom: 70px;
-  position: absolute;
-  background: #707070;
-  transform: skew(0deg, 4deg);
 }
 
 .header-actions > .button:not(:last-child) {
