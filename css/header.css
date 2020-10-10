@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-subTitle {
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin: 69px 0 5px;
+}
+
+.header-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+
+.header-text {
+  color: #ffffff;
+  font-size: 0.9rem;
+  margin-bottom: 50px;
+}
+
+.header-background {
+  left: 0;
+  top: -610px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #707070;
+  transform: skew(0deg, 4deg);
+}
+
+.button:not(:last-child) {
+  margin-right: 30px;
+}
