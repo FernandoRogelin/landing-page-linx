@@ -56,7 +56,7 @@
               at mattis augue est vel metus.
             </p>
           </div>
-          <form class="main-form">
+          <div class="main-form">
             <label class="labelInput">
               Seu nome:
               <input class="labelInput-input" />
@@ -78,7 +78,7 @@
               Feminino
             </label>
             <button class="button fullWidth">Enviar</button>
-          </form>
+          </div>
         </section>
         <section class="main-items">
           <h3 class="main-separate-section">Sua seleção especial</h3>
@@ -86,7 +86,7 @@
             <div class="main-items-product"></div>
           </div>
           <footer class="main-items-footer">
-            <button class="button">Ainda mais produtos aqui!</button>
+            <button id="addProducts" class="button">Ainda mais produtos aqui!</button>
           </footer>
         </section>
         <section class="main-share">
@@ -95,19 +95,21 @@
             Quer que seus amigos também ganhem a lista personalizada deles?
             Preencha agora!
           </p>
-          <div class="main-share-inputs">
-            <label class="labelInput">
-              Nome do seu amigo:
-              <input class="labelInput-input" />
-            </label>
-            <label class="labelInput">
-              E-mail:
-              <input class="labelInput-input" />
-            </label>
-          </div>
-          <footer class="main-share-footer">
-            <button class="button">Enviar agora</button>
-          </footer>
+          <form>
+            <div class="main-share-inputs">
+              <label class="labelInput">
+                Nome do seu amigo:
+                <input class="labelInput-input" />
+              </label>
+              <label class="labelInput">
+                E-mail:
+                <input class="labelInput-input" />
+              </label>
+            </div>
+            <footer class="main-share-footer">
+              <button class="button">Enviar agora</button>
+            </footer>
+          </form>
         </section>
       </div>
       <footer class="main-footer">
