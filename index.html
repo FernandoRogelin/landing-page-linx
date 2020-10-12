@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/button.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/instruction.css" />
     <link rel="stylesheet" href="./css/labels.css" />
     <link rel="stylesheet" href="./css/items.css" />
     <link rel="stylesheet" href="./css/share.css" />
@@ -106,11 +107,11 @@
             <div class="main-share-inputs">
               <label class="labelInput">
                 Nome do seu amigo:
-                <input name="name" onchange="validateName(formRegister.name)" class="labelInput-input" />
+                <input name="name" id="labelInput-name" class="labelInput-input" />
               </label>
               <label class="labelInput">
                 E-mail:
-                <input name="email" onchange="validateEmail(formRegister.email)" class="labelInput-input" />
+                <input name="email" id="labelInput-email" class="labelInput-input" />
               </label>
             </div>
             <footer class="main-share-footer">
@@ -119,14 +120,14 @@
           </form>
         </section>
       </div>
-      <footer class="main-footer">
-        <p class="main-footer-text">
-          Testando suas habilidades em HTML, CSS e JS.
-        </p>
-        <p class="main-footer-text">Linx Impulse</p>
-        <p class="main-footer-text">2019</p>
-      </footer>
     </main>
+    <footer class="footer">
+      <p class="footer-text">
+        Testando suas habilidades em HTML, CSS e JS.
+      </p>
+      <p class="footer-text">Linx Impulse</p>
+      <p class="footer-text">2019</p>
+    </footer>
 
     <script async type="text/javascript" src="./js/products.js"></script>
     <script async type="text/javascript" src="./js/validate.js"></script>

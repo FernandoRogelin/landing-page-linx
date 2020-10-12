@@ -8,95 +8,16 @@
   width: 960px;
 }
 
-.main-instruction {
-  display: flex;
-  margin-bottom: 80px;
-}
-
-.main-instruction-email {
-  display: none;
-}
-
-.main-instruction-help {
-  width: 500px;
-  margin-right: 20px;
-}
-
-.main-instruction-title {
-  font-size: 20px;
-  color: #888888;
-  margin-bottom: 30px;
-}
-
-.main-instruction-text {
-  font-size: 12px;
-  color: #888888;
-}
-
-.main-instruction-text:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-.main-instruction-form {
-  width: 340px;
-}
-
-.main-instruction-form > .labelInput:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-.main-instruction-form > .button {
-  margin-top: 20px;
-}
-
 @media only screen and (max-width: 440px) {
   .main-content {
     z-index: 3;
     width: 100%;
   }
-
-  .main-instruction-help {
-    width: 100%;
-  }
-
-  .main-instruction-form {
-    width: 100%;
-  }
-
-  .main-instruction {
-    display: block;
-    padding: 0 16px;
-  }
-
-  .main-instruction-help {
-    margin-bottom: 30px;
-  }
 }
 
 @media (max-width: 600px) and (min-width: 441px) {
-  .main-instruction-help {
-    display: none;
-  }
-
-  .main-instruction-form {
-    display: none;
-  }
-
-  .main-instruction-email {
-    display: block;
-    padding: 0 16px;
-  }
-
   .main-content {
     z-index: 3;
-    width: 100%;
-  }
-
-  .main-instruction-help {
-    width: 100%;
-  }
-
-  .main-instruction-form {
     width: 100%;
   }
 }
