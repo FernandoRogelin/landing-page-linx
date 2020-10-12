@@ -32,3 +32,21 @@
 .main-share-footer > .button {
   padding: 11px 85px;
 }
+
+@media only screen and (max-width: 440px) {
+  .main-share-inputs {
+    display: block;
+  }
+
+  .main-share-inputs {
+    padding: 0 20px;
+  }
+
+  .main-share-inputs > .labelInput:not(:last-child) {
+    margin: 0 0 20px;
+  }
+
+  .main-share-inputs > .labelInput {
+    width: 100%;
+  }
+}

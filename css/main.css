@@ -44,3 +44,27 @@
 .main-form > .button {
   margin-top: 20px;
 }
+
+@media only screen and (max-width: 440px) {
+  .main-content {
+    z-index: 3;
+    width: 100%;
+  }
+
+  .main-instruction-help {
+    width: 100%;
+  }
+
+  .main-form {
+    width: 100%;
+  }
+
+  .main-instruction {
+    display: block;
+    padding: 0 16px;
+  }
+
+  .main-instruction-help {
+    margin-bottom: 30px;
+  }
+}

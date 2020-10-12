@@ -34,14 +34,16 @@
               <div class="main-items-product-photo">
                 <img class="main-items-product-photo-image" alt="Image products" src=http:${product.image} />
               </div>
-              <p class="main-items-product-title">${product.name}</p>
-              <p class="main-items-product-description">${product.description}</p>
-              <p class="main-items-product-description">De: R$${product.oldPrice}</p>
-              <p class="main-items-product-value">Por: R$${product.price}</p>
-              <p class="main-items-product-description">
+              <div>
+                <p class="main-items-product-title">${product.name}</p>
+                <p class="main-items-product-description">${product.description}</p>
+                <p class="main-items-product-price">De: R$${product.oldPrice}</p>
+                <p class="main-items-product-value">Por: R$${product.price}</p>
+                <p class="main-items-product-price">
                 ou ${product.installments.count}x de R$${product.installments.value}
-              </p>
-              <button class="button fullWidth">Comprar</button>
+                </p>
+                <button class="button fullWidth">Comprar</button>
+              </div>
             </div>
           `
       )
