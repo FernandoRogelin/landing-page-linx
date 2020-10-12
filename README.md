@@ -13,3 +13,7 @@ https://github.com/FernandoRogelin/landing-page-linx.git
 ### O que se foi utilizado para se fazer a página:
 
 O site foi desenvolvido apenas com Html, CSS3 e JavaScript, sem se fazer uso de qualquer Framework de Front-End.
+
+### Acesse um live preview da página:
+
+<a href="https://unruffled-neumann-2b47b8.netlify.app/" target="_blank">Live Preview</a>
