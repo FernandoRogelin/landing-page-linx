@@ -28,7 +28,7 @@
 
   function fetchProducts(products) {
     return products
-      .map((product) => 
+      .map((product) =>
          `
             <div class="main-items-product">
               <div class="main-items-product-photo">

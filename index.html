@@ -104,9 +104,9 @@
           </p>
           <form name="formRegister">
             <div class="main-share-inputs">
-              <label name="name" class="labelInput">
+              <label class="labelInput">
                 Nome do seu amigo:
-                <input class="labelInput-input" />
+                <input name="name" onchange="validateName(formRegister.name)" class="labelInput-input" />
               </label>
               <label class="labelInput">
                 E-mail:
@@ -128,7 +128,7 @@
       </footer>
     </main>
 
-    <script type="text/javascript" src="./js/products.js"></script>
-    <script type="text/javascript" src="./js/validate.js"></script>
+    <script async type="text/javascript" src="./js/products.js"></script>
+    <script async type="text/javascript" src="./js/validate.js"></script>
   </body>
 </html>
