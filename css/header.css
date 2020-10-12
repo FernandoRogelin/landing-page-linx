@@ -85,3 +85,14 @@
     transform: skew(0, 15deg);
   }
 }
+
+@media (max-width: 600px) and (min-width: 441px) {
+  .header {
+    margin: 0;
+    height: 290px;
+  }
+
+  .header-actions > .button {
+    display: none;
+  }
+}

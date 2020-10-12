@@ -13,6 +13,10 @@
   margin-bottom: 80px;
 }
 
+.main-instruction-email {
+  display: none;
+}
+
 .main-instruction-help {
   width: 500px;
   margin-right: 20px;
@@ -33,15 +37,15 @@
   margin-bottom: 20px;
 }
 
-.main-form {
+.main-instruction-form {
   width: 340px;
 }
 
-.main-form > .labelInput:not(:last-child) {
+.main-instruction-form > .labelInput:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.main-form > .button {
+.main-instruction-form > .button {
   margin-top: 20px;
 }
 
@@ -55,7 +59,7 @@
     width: 100%;
   }
 
-  .main-form {
+  .main-instruction-form {
     width: 100%;
   }
 
@@ -66,5 +70,33 @@
 
   .main-instruction-help {
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 441px) {
+  .main-instruction-help {
+    display: none;
+  }
+
+  .main-instruction-form {
+    display: none;
+  }
+
+  .main-instruction-email {
+    display: block;
+    padding: 0 16px;
+  }
+
+  .main-content {
+    z-index: 3;
+    width: 100%;
+  }
+
+  .main-instruction-help {
+    width: 100%;
+  }
+
+  .main-instruction-form {
+    width: 100%;
   }
 }

@@ -50,3 +50,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 600px) and (min-width: 441px) {
+  .main-share {
+    display: none;
+  }
+}
