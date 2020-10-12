@@ -102,19 +102,19 @@
             Quer que seus amigos também ganhem a lista personalizada deles?
             Preencha agora!
           </p>
-          <form>
+          <form name="formRegister">
             <div class="main-share-inputs">
-              <label class="labelInput">
+              <label name="name" class="labelInput">
                 Nome do seu amigo:
                 <input class="labelInput-input" />
               </label>
               <label class="labelInput">
                 E-mail:
-                <input class="labelInput-input" />
+                <input name="email" onchange="validateEmail(formRegister.email)" class="labelInput-input" />
               </label>
             </div>
             <footer class="main-share-footer">
-              <button class="button">Enviar agora</button>
+              <button id="main-share-footer-submit" class="button disabled" disabled>Enviar agora</button>
             </footer>
           </form>
         </section>
@@ -129,5 +129,6 @@
     </main>
 
     <script type="text/javascript" src="./js/products.js"></script>
+    <script type="text/javascript" src="./js/validate.js"></script>
   </body>
 </html>
